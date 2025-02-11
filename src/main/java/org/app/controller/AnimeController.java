@@ -1,6 +1,6 @@
 package org.app.controller;
 
-import org.app.entities.Anime;
+import org.app.entity.Anime;
 import org.app.service.AnimeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,7 +1,6 @@
 package org.app.service;
 
-import org.app.entities.Anime;
-import org.springframework.stereotype.Service;
+import org.app.entity.Anime;
 
 import java.util.List;
 

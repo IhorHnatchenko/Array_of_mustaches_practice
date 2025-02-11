@@ -1,6 +1,6 @@
 package org.app.service;
 
-import org.app.entities.Anime;
+import org.app.entity.Anime;
 import org.app.repository.AnimeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

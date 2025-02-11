@@ -1,4 +1,6 @@
-package org.app.entities;
+package org.app.entity;
+
+
 
 import javax.persistence.*;
 
@@ -89,5 +91,19 @@ public class Anime {
 
     public void setGenre(String genre) {
         this.genre = genre;
+    }
+
+    @Override
+    public String toString() {
+        return "Anime{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", maxNumberOfSeasons=" + maxNumberOfSeasons +
+                ", maxNumberOfEpisodes=" + maxNumberOfEpisodes +
+                ", studio='" + studio + '\'' +
+                ", description='" + description + '\'' +
+                ", releaseYear=" + releaseYear +
+                ", genre='" + genre + '\'' +
+                '}';
     }
 }

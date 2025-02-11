@@ -1,6 +1,6 @@
 package org.app.repository;
 
-import org.app.entities.Anime;
+import org.app.entity.Anime;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
