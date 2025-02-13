@@ -31,6 +31,26 @@ public class AnimeServiceImpl implements AnimeService {
     }
 
     @Override
+    public Anime getByName(String name) {
+        return repository.getAnimeByName(name).orElse(null); //or else Throw
+    }
+
+    @Override
+    public Anime getByGenre(String genre) {
+        return repository.getAnimeByGenre(genre).orElse(null);
+    }
+
+    @Override
+    public Anime getByReleaseYear(int releaseYear) {
+        return repository.getAnimeByReleaseYear(releaseYear).orElse(null);
+    }
+
+    @Override
+    public Anime getByStudio(String studio) {
+        return repository.getAnimeByStudio(studio).orElse(null);
+    }
+
+    @Override
     public void remove(long id) {
         repository.deleteById(id);
     }

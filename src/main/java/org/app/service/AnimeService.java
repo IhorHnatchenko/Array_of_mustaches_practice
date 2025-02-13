@@ -13,6 +13,13 @@ public interface AnimeService {
 
     Anime create(Anime anime);
 
-    void remove (long id);
+    Anime getByName(String name);
 
+    Anime getByGenre(String genre);
+
+    Anime getByReleaseYear(int releaseYear);
+
+    Anime getByStudio(String studio);
+
+    void remove(long id);
 }
